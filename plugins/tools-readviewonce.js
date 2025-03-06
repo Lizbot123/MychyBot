@@ -9,7 +9,7 @@ return conn.sendFile(m.chat, buffer, 'media.mp4', m.quoted.caption || '', m)
 } else if (/imageMessage/.test(m.quoted.mtype)) {
 return conn.sendFile(m.chat, buffer, 'media.jpg', m.quoted?.caption || '', m)
 }}
-handler.help = ['antiviewonce', 'enable antiviewonce']
+handler.help = ['antiviewonce']
 handler.tags = ['tools']
 handler.command = ['ver', 'read', 'readvo'] 
 
