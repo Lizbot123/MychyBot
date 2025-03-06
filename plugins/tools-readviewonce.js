@@ -11,6 +11,6 @@ return conn.sendFile(m.chat, buffer, 'media.jpg', m.quoted?.caption || '', m)
 }}
 handler.help = ['antiviewonce']
 handler.tags = ['tools']
-handler.command = ['ver', 'read', 'readvo'] 
+handler.command = ['ver', 'antiviewonce'] 
 
 export default handler
