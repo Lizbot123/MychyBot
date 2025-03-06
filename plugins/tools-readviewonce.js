@@ -9,8 +9,8 @@ return conn.sendFile(m.chat, buffer, 'media.mp4', m.quoted.caption || '', m)
 } else if (/imageMessage/.test(m.quoted.mtype)) {
 return conn.sendFile(m.chat, buffer, 'media.jpg', m.quoted?.caption || '', m)
 }}
-handler.help = ['ver']
+handler.help = ['antiviewonce', 'enable antiviewonce']
 handler.tags = ['tools']
-handler.command = ['readviewonce', 'read', 'readvo'] 
+handler.command = ['ver', 'read', 'readvo'] 
 
 export default handler
