@@ -1,3 +1,4 @@
+const emoji = '✨';
 import { igdl } from 'ruhend-scraper'
 
 const handler = async (m, { text, conn, args }) => {
