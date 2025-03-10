@@ -2,6 +2,7 @@
 
 const handler = async (m, { text, conn, args, usedPrefix, command }) => {
   if (!args[0]) {
+   const fake = require('faker');
     return conn.reply(m.chat, '*\`Ingresa El link Del vídeo a descargar 💛\`*', m, fake);
   }
 
